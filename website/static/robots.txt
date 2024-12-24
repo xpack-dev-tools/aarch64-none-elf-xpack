@@ -1,0 +1,7 @@
+Sitemap: https://xpack-dev-tools.github.io/aarch64-none-elf-gcc-xpack/sitemap.xml
+
+User-agent: *
+Disallow: /aarch64-none-elf-gcc-xpack/blog/archive/
+Disallow: /aarch64-none-elf-gcc-xpack/blog/authors/
+Disallow: /aarch64-none-elf-gcc-xpack/blog/page/
+Disallow: /aarch64-none-elf-gcc-xpack/blog/tags/
