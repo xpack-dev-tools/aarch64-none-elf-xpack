@@ -69,6 +69,7 @@
       "aarch64-none-elf-c++": "./.content/bin/aarch64-none-elf-c++",
       "aarch64-none-elf-c++filt": "./.content/bin/aarch64-none-elf-c++filt",
       "aarch64-none-elf-cpp": "./.content/bin/aarch64-none-elf-cpp",
+      "aarch64-none-elf-dwp": "./.content/bin/aarch64-none-elf-dwp",
       "aarch64-none-elf-elfedit": "./.content/bin/aarch64-none-elf-elfedit",
       "aarch64-none-elf-g++": "./.content/bin/aarch64-none-elf-g++",
       "aarch64-none-elf-gcc": "./.content/bin/aarch64-none-elf-gcc",
