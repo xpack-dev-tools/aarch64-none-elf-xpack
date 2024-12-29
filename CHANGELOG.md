@@ -2,9 +2,162 @@
 
 Entries in this file are in reverse chronological order.
 
+## 2024-12-29
+
+* v14.2.1-1.1 prepared
+
+## 2024-12-24
+
+* 58f5e85 website: updates
+* 967e9ff website: updates
+
+## 2024-12-22
+
+* 6035880 website: updates
+* 505e4a4 website: add _xpack.github.io
+
+## 2024-12-20
+
+* 3a63d44 website: updates
+* 451e9b8 website: updates
+* 8c6de8e website: updates
+
+## 2024-12-11
+
+* 2a4bb47 website: updates
+* 1ae073f website/blog/_templates/blog-post-release*
+
+## 2024-12-04
+
+* c00749f website: updates
+* 55d0c9d build-assets/package.json: bump deps
+
+## 2024-10-15
+
+* 7625074 website: updates
+* 1c571dc website: updates
+
+## 2024-10-14
+
+* 0032c6c website config.ts cosmetics
+* 68be9eb website components cleanups
+* ac16fb8 website: updates
+
+## 2024-10-13
+
+* 3154fc9 website: updates
+* 5159fbd website: update config without data-rh
+* 8a2bd54 website: add static favicon
+* cde4f9b website: updates
+* 369e651 website: updates
+* ac13ca5 Revert "website: test image"
+
+## 2024-10-12
+
+* b5b35bc website: test image
+
+## 2024-10-11
+
+* 8026b08 website: updates
+* 52aa2ad website blog seo updates
+* 0db9a04 website/blog/_templates/blog-post-release*
+* 0999fc2 website/blog/_templates/blog-post-release*
+
+## 2024-10-10
+
+* 518aba3 Merge commit '983e845a5fffbbe19ba114051eb2848753bc381d' into xpack-development
+* 6c3e95c website: updates
+* 983e845 website seo shorten title
+* 4a296ff website: re-generate common with seo
+* d8c4c25 website: re-generate common with seo
+* a0ec2fa website: updates
+
+## 2024-10-09
+
+* a2e1ae7 website update
+* 8180d82 website update
+* 954810a website update
+* 2564da2 website update
+* 73fdb04 website move blog post templates
+* 356eb59 website: updates
+
+## 2024-10-08
+
+* 5aa119d website getting started update
+* 7b23a5a website HomepageFeatures update
+* 13a19ac website getting started update
+* 7b0aa6e website getting started update
+* dcf9cd4 website getting started update
+* fd1b5f4 website getting started update
+* 76c4a55 website getting started update
+
+## 2024-10-07
+
+* dd8e6a5 website: re-generate commons
+* 59aaf26 website: re-generate commons
+* 6180e6d website: updates
+* 7386ca4 body-blog* update
+* 0db204b website: updates
+
+## 2024-10-06
+
+* bb2bdc5 website: updates
+* cd59a7d website: updates
+* 03e170d re-generate workflows
+
+## 2024-10-04
+
+* 5a82276 website: updates
+* fd60201 templates/body-blog update
+
+## 2024-09-21
+
+* 1783c3e website: re-generate commons
+
+## 2024-09-20
+
+* 32092ef website: re-generate commons
+* 6d9fa40 website: re-generate commons
+* b4c5628 website: re-generate commons
+* 6f3499e website: re-generate commons
+* d262168 website: re-generate commons to add Donate button
+* 3286762 website: re-generate commons
+* baa0618 website update footer
+
+## 2024-09-18
+
+* 0fe4dfd website: updates
+* 6be3e30 website update
+* 498f225 build-assets/package.json: bump deps
+* 6bf35dc build-assets/package.json update customFields
+* 6c80aa8 build-assets/templates updates
+
+## 2024-09-12
+
+* a4c69b2 update scripts copyright notices
+
+## 2024-08-17
+
+* 32a0e25 website updates
+* b2c643c templates updates
+* e990b76 re-generate workflows
+
+## 2024-08-16
+
+* 6f6d37b templates/body-github: update
+* c3f41ab website update
+* 4600500 website: re-generate commons
+* 706d365 website: re-generate commons
+* 4e36076 build-assets/templates: use template variables
+* b812a5b build-assets/package.json: bump deps
+
 ## 2024-08-15
 
-* v13.3.1-1.1 published on npmjs.com
+* 7192df3 website/blog update
+* f4d1b3f 13.3.1-1.1.2
+* 7e43548 package.json: add ld.gold
+* 5628273 13.3.1-1.1.1
+* a84fc48 CHANGELOG: publish npm v13.3.1-1.1.1
 * 140d7ec package.json: update urls for 13.3.1-1.1.1 release
 * e4e7d26 blog post release 13.3.1-1.1 published
 * 4cc24d5 build-assets/templates update
