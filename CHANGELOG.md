@@ -2,9 +2,21 @@
 
 Entries in this file are in reverse chronological order.
 
+## 2024-12-31
+
+* 677361b re-generate commons
+* 637e27c website: updates
+
+## 2024-12-30
+
+* 8993432 website: updates
+
 ## 2024-12-29
 
-* v14.2.1-1.1 prepared
+* a96a88d website: update development durations
+* 36d6498 website: update folder hierarchies
+* e5bdb48 package.json: update bin links
+* cd7e223 prepare v14.2.1-1.1
 
 ## 2024-12-24
 
