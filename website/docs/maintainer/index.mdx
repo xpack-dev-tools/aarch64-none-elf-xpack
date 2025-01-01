@@ -856,9 +856,13 @@ The tests results are available from the
 When the release is considered stable, promote it as `latest`:
 
 <CodeBlock language="sh"> {
+`npm dist-tag add @xpack-dev-tools/aarch64-none-elf-gcc@${customField('xpackVersion')}.${customField('npmSubversion')} latest
+`} </CodeBlock>
+
+Check the result:
+
+<CodeBlock language="sh"> {
 `npm dist-tag ls @xpack-dev-tools/aarch64-none-elf-gcc
-npm dist-tag add @xpack-dev-tools/aarch64-none-elf-gcc@${customField('xpackVersion')}.${customField('npmSubversion')} latest
-npm dist-tag ls @xpack-dev-tools/aarch64-none-elf-gcc
 `} </CodeBlock>
 
 In case the release proves problematic and needs to be unpublished:
@@ -872,7 +876,7 @@ In case the release proves problematic and needs to be unpublished:
 Validate the web site content in a local build via the npm `build` script:
 
 ```sh
-npm --prefix website run build
+npm run build -C website
 ```
 
 ### Publish the website
