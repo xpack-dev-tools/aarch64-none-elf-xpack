@@ -754,8 +754,12 @@ with all binaries attached.
 - do **not** enable Discussions yet
 - click the **Publish release** button
 
-Note: at this moment the system should send a notification to all clients
-watching this project.
+:::info
+
+At this moment the system should send an email notification to all clients
+watching the aarch64-none-elf-gcc-xpack project.
+
+:::
 
 ### Prepare a new blog post
 
@@ -885,14 +889,14 @@ npm run build -C website
 - select the `website` branch
 - merge `xpack-development` into `website`
 - push the `website` branch to GitHub
-
-At this moment an automated GitHub Action will generate and publish the website.
-
+  :::info
+  At this moment an automated GitHub Action will generate and publish the website.
+  :::
 - the new release blog post is
 in https://xpack-dev-tools.github.io/aarch64-none-elf-gcc-xpack/blog/
 - remember the post URL, since it must be used to update the release page
 and the X/Twitter announcement
-- switch to https://xpack-dev-tools.github.io/aarch64-none-elf-gcc-xpack/.
+- switch to https://xpack-dev-tools.github.io/aarch64-none-elf-gcc-xpack/maintainer/#update-the-xpack-branch.
 
 The `website` branch may be subsequently updated, as long as the
 version in `package.json` is not changed.
