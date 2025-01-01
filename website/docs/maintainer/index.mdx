@@ -881,6 +881,8 @@ npm run build -C website
 
 ### Publish the website
 
+- stop the local web server
+- select the `website` branch
 - merge `xpack-development` into `website`
 - push the `website` branch to GitHub
 
@@ -890,8 +892,7 @@ At this moment an automated GitHub Action will generate and publish the website.
 in https://xpack-dev-tools.github.io/aarch64-none-elf-gcc-xpack/blog/
 - remember the post URL, since it must be used to update the release page
 and the X/Twitter announcement
-- stop the local web server
-- witch to https://xpack-dev-tools.github.io/aarch64-none-elf-gcc-xpack/.
+- switch to https://xpack-dev-tools.github.io/aarch64-none-elf-gcc-xpack/.
 
 The `website` branch may be subsequently updated, as long as the
 version in `package.json` is not changed.
