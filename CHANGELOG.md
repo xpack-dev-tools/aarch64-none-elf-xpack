@@ -2,7 +2,13 @@
 
 Entries in this file are in reverse chronological order.
 
-2025-01-01 * d543129 website: update actions durations
+## 2025-01-01
+
+* aacc5d1 website update
+* a1e497b package.json: update urls for 14.2.1-1.1.1 release
+* cc334e4 website: blog post release 14.2.1-1.1 published
+* 92bf921 CHANGELOG update
+* d543129 website: update actions durations
 
 ## 2024-12-31
 
