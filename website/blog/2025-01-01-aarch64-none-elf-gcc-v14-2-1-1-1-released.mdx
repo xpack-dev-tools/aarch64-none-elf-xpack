@@ -1,0 +1,183 @@
+---
+title: xPack GNU AArch64 Embedded GCC v14.2.1-1.1 released
+seo_title: Version 14.2.1-1.1 released
+description: Version 14.2.1-1.1 is a new release.
+keywords:
+  - xpack
+  - aarch64-none-elf-gcc
+  - release
+
+date: 2025-01-01 11:31:49 +0200
+
+authors: ilg-ul
+
+# To be listed in the Releases page.
+tags:
+  - releases
+
+# ----- Custom properties -----------------------------------------------------
+
+arm_version: "14.2.Rel1"
+arm_date: "10 Dec 2024"
+
+gcc_version: "14.2.1"
+binutils_version: "2.43"
+gdb_version: "15.2"
+newlib_version: "4.4.0"
+python_version: "3.12.8"
+
+version: "14.2.1-1.1"
+npm_subversion: "1"
+
+download_url: https://github.com/xpack-dev-tools/aarch64-none-elf-gcc-xpack/releases/tag/v14.2.1-1.1/
+
+---
+
+import {PageMetadata} from '@docusaurus/theme-common';
+import Image from '@theme/IdealImage';
+import CodeBlock from '@theme/CodeBlock';
+
+import Prerequisites from './_common/_prerequisites-glib-2.27.mdx'
+import DeprecationNotices from './_common/_deprecation-notices-glib-2.27.mdx'
+import DownloadAnalytics from './_common/_download-analytics.mdx'
+
+Version **14.2.1-1.1** is a new release; it follows the upstream Arm release.
+
+<!-- truncate -->
+
+<PageMetadata title={frontMatter.seo_title} />
+
+The [xPack GNU AArch64 Embedded GCC](https://xpack-dev-tools.github.io/aarch64-none-elf-gcc-xpack/)
+is a standalone cross-platform binary distribution of
+[Arm GNU Toolchain](https://developer.arm.com/Tools%20and%20Software/GNU%20Toolchain).
+
+There are separate binaries for **Windows** (x64),
+**macOS** (x64 and arm64)
+and **GNU/Linux** (x64, arm64 and arm).
+
+:::note Raspberry Pi
+
+The main targets for the GNU/Linux Arm
+binaries are the **Raspberry Pi** class devices (armv7l and aarch64;
+armv6 is not supported).
+
+:::
+
+## Download
+
+The binary files are available from <a href={frontMatter.download_url}>GitHub Releases</a>.
+
+<Prerequisites/>
+
+## Install
+
+The easiest way to install this specific version, is by using **xpm**:
+
+<CodeBlock language="console"> {
+`xpm install @xpack-dev-tools/aarch64-none-elf-gcc@${frontMatter.version}.${frontMatter.npm_subversion} -verbose
+`} </CodeBlock>
+
+Comprehensive instructions for installing **xPack GNU AArch64 Embedded GCC** on different platforms
+can be found in the [Install Guide](/docs/install/).
+
+## Compliance
+
+The **xPack GNU AArch64 Embedded GCC** is based on the official
+[Arm GNU Toolchain](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/downloads/)
+releases.
+
+The current version is based on:
+
+- [Arm GNU Toolchain](https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads/)
+release **{frontMatter.arm_version}** from {frontMatter.arm_date}
+and uses the same sources. It includes:
+  - GCC {frontMatter.gcc_version}
+  - binutils {frontMatter.binutils_version}
+  - newlib {frontMatter.newlib_version}
+  - GDB {frontMatter.gdb_version}
+  - Python {frontMatter.python_version}
+
+## Supported libraries
+
+The supported libraries are:
+
+```console
+$ aarch64-none-elf-gcc -print-multi-lib
+.;
+ilp32;@mabi=ilp32
+```
+
+## Changes
+
+Compared to the official Arm version, there should be no functional changes.
+
+## Bug fixes
+
+- none
+
+## Enhancements
+
+- none
+
+## Known problems
+
+- none
+
+## Documentation
+
+The original GNU Arm Embedded GCC documentation is available from the
+[GCC online documentation](https://gcc.gnu.org/onlinedocs/) web site.
+
+## Build
+
+The binaries for all supported platforms
+(Windows, macOS and GNU/Linux) were built using the
+[xPack Build Box (XBB)](https://xpack.github.io/xbb/), a set
+of build environments based on slightly older distributions, that should be
+compatible with most recent systems.
+
+For the prerequisites and more details on the build procedure, please see the
+[Maintainer Info](/docs/maintainer/) page.
+
+## CI tests
+
+Before publishing, a set of simple tests were performed on an exhaustive
+set of platforms. The results are available from:
+
+- [GitHub Actions](https://github.com/xpack-dev-tools/aarch64-none-elf-gcc-xpack/actions/)
+- [Travis CI](https://app.travis-ci.com/github/xpack-dev-tools/aarch64-none-elf-gcc-xpack/builds/)
+
+## Tests
+
+The binaries were tested on a variety of platforms,
+but mainly to check the integrity of the
+build, not the compiler functionality.
+
+## Checksums
+
+The SHA-256 hashes for the files are:
+
+```txt
+88fc8bd58d2feadd83411b427111c07825752bf2dab81d50137682bcfc6d6c50
+xpack-aarch64-none-elf-gcc-14.2.1-1.1-darwin-arm64.tar.gz
+
+977f8608aeb47baacb66e45bbbcfa14cfa1efd114a2d9fab66bc0c81c8a38b8c
+xpack-aarch64-none-elf-gcc-14.2.1-1.1-darwin-x64.tar.gz
+
+d1e76f00a44fa6f96d44b5649a8266688dedcb5c0445479c8603131055169796
+xpack-aarch64-none-elf-gcc-14.2.1-1.1-linux-arm.tar.gz
+
+62c101b0205a0a205287f08e74c5ac7739fe72984fb48e43ec0290b9a34c4393
+xpack-aarch64-none-elf-gcc-14.2.1-1.1-linux-arm64.tar.gz
+
+a2c9731f3c2a0abfdfa1e285de82d806e07a580a5fef4be59aac952c6b67b117
+xpack-aarch64-none-elf-gcc-14.2.1-1.1-linux-x64.tar.gz
+
+1d8655120cb73a9bfbb7eb65f1b5e2d114d6f99ce5a0e107b73d646b55a6306a
+xpack-aarch64-none-elf-gcc-14.2.1-1.1-win32-x64.zip
+
+```
+
+<DeprecationNotices/>
+
+<DownloadAnalytics version={frontMatter.version}/>
