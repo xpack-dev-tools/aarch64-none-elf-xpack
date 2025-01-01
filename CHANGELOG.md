@@ -2,8 +2,14 @@
 
 Entries in this file are in reverse chronological order.
 
+2025-01-01 * d543129 website: update actions durations
+
 ## 2024-12-31
 
+* 3e04ffd build-assets/pacakge.json: bump deps
+* fe50d35 CHANGELOG.md update
+* c89071a package.json: cosmetics
+* dd11284 website: re-generate commons
 * 677361b re-generate commons
 * 637e27c website: updates
 
