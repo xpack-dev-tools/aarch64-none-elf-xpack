@@ -131,7 +131,7 @@ pages.
 To check if the xpm installed GCC starts, use something like:
 
 ```doscon
-C:\>%USERPROFILE%\AppData\Roaming\xPacks\@xpack-dev-tool\aarch64-none-elf-gcc\{{ page.version }}-{{ page.xpack-subversion }}.1\.content\bin\aarch64-none-elf-gcc.exe" --version
+C:\>%USERPROFILE%\AppData\Roaming\xPacks\@xpack-dev-tools\aarch64-none-elf-gcc\{{ page.version }}-{{ page.xpack-subversion }}.1\.content\bin\aarch64-none-elf-gcc.exe" --version
 aarch64-none-elf-gcc.exe (xPack GNU AArch64 Embedded GCC x86_64) {{ page.version }} {{ page.version-timestamp }}
 ```
 
