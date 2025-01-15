@@ -5,8 +5,7 @@
 
 # The xPack GNU AArch64 Embedded GCC
 
-A standalone cross-platform (Windows, macOS, GNU/Linux)
-binary distribution of GNU AArch64 Embedded GCC,
+A standalone, cross-platform (Windows, macOS, GNU/Linux) binary distribution of GNU AArch64 Embedded GCC,
 intended for reproducible builds.
 
 ## Project documentation
