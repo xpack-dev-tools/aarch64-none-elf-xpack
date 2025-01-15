@@ -191,7 +191,7 @@ platforms, support for Guile scripting in GDB is currently not available.
 
 ## Bug fixes
 
-- [[#2](https://github.com/xpack-dev-tools/aarch64-none-elf-gcc-xpack/issues/2)]
+- [[#2](https://github.com/xpack-dev-tools/aarch64-none-elf-gcc-xpack/issues/2)]:
   due to a an issue in the build scripts, on GNU/Linux,
   the `aarch64-none-elf-gdb` was built without ELF support; fixed
 
