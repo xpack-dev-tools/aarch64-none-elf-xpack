@@ -275,7 +275,7 @@ const config: Config = {
           label: 'GitHub',
           items: [
             {
-              label: `aarch64-none-elf-gcc-xpack`,
+              label: `aarch64-none-elf-gcc-xpack project`,
               href: `https://github.com/xpack-dev-tools/aarch64-none-elf-gcc-xpack/`,
             },
             {
@@ -348,7 +348,7 @@ const config: Config = {
               href: 'https://www.paypal.com/donate/?hosted_button_id=5MFRG9ZRBETQ8',
             },
             {
-              label: 'GitHub aarch64-none-elf-gcc-xpack',
+              label: 'GitHub aarch64-none-elf-gcc-xpack project',
               href: 'https://github.com/xpack-dev-tools/aarch64-none-elf-gcc-xpack/',
             },
             {
