@@ -65,9 +65,7 @@
       "build-native-develop": "bash {{properties.dbg}} scripts/build.sh --development",
       "build-native-develop-debug": "bash {{properties.dbg}} scripts/build.sh --development --debug",
       "build-native-win": "bash {{properties.dbg}} scripts/build.sh --windows",
-      "build-native-win-develop": "bash {{properties.dbg}} scripts/build.sh --development --windows",
-      "website-generate-commons": "bash xpacks/@xpack-dev-tools/xbb-helper/maintainer-scripts/website-generate-commons.sh",
-      "website-import-releases": "bash xpacks/@xpack-dev-tools/xbb-helper/maintainer-scripts/website-import-releases.sh"
+      "build-native-win-develop": "bash {{properties.dbg}} scripts/build.sh --development --windows"
     },
     "buildConfigurations": {
       "common-dependencies": {
