@@ -106,8 +106,9 @@
     "liquidjs": "^10.19.1"
   },
   "topConfig": {
-    "longName": "GNU AArch64 Embedded GCC",
-    "shortName": "aarch64-none-elf-gcc"
+    "descriptiveName": "GNU AArch64 Embedded GCC",
+    "permalinkName": "aarch64-none-elf-gcc",
+    "useSelfHostedRunners": "true"
   },
   "engines": {
     "node": " >=18.0.0"
